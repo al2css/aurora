@@ -1,0 +1,20 @@
+[
+  {
+    "from": "System",
+    "date": 1400956671914,
+    "subject": "Your confirmation #W45021238038",
+    "id": 1
+  },
+  {
+    "from": "Operations",
+    "date": 1400956671914,
+    "subject": "Your password has expired!",
+    "id": 2
+  },
+  {
+    "from": "Admin",
+    "date": 1400956671914,
+    "subject": "Your account has been deleted!",
+    "id": 3
+  }
+]

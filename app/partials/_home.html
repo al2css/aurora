@@ -1,0 +1,15 @@
+<div id="map"></div>
+
+<!-- <div class="inside_page home">  -->
+<div class="inside_page home" style="background: rgba(255,255,255,0.4); margin-top:100px;"> 
+	<section class="title"><h1>{{ home.title }}</h1></section>
+
+	<ul>
+		<li ng-repeat="mydata in data">
+			<b>{{$index + 1}}# <a href="{{mydata.properties.url}}" target="_blank">{{mydata.properties.city}}</a></b> # <i>{{mydata.geometry.coordinates[0]}} / {{mydata.geometry.coordinates[1]}}</i>
+		</li>
+	</ul>
+
+	<br><br>
+
+</div>

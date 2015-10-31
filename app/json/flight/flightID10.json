@@ -1,0 +1,15 @@
+{
+    "id": 10,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Doha",
+    "from_code": "DOH",
+    "to": "Dubai",
+    "to_code": "DUB",
+    "flight_code": "G950123",
+    "departing_time": 1432043100,
+    "landing_time": 1432053100,
+    "passenger_booked": 568,
+    "forecasted_bags": 829
+}

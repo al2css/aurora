@@ -1,0 +1,38 @@
+<div class="inbox email">
+	
+    <div class="search-bar">
+        <div class="inbox__count">
+        	<section class="title"><h1><b>{{ email.message.subject }}</b></h1></section>
+        </div>
+
+    </div>
+
+    <div class="clear"></div>
+
+    <a ng-href="#/inbox" class="email__back" title="Go Back"><span>Back</span></a>
+
+    <div class="msg_content">
+    
+	    <ul class="inbox__list">
+	        <li>
+	            <div class="inbox__list-info">
+	                <p class="inbox__list-from"> From: <b>{{ email.message.from }}</b></p>
+	                <!-- <p class="inbox__list-date"> <b>Flight:</b> {{ email.message.date | date: 'dd/MM/yyyy' }}</p> -->
+	                <p class="inbox__list-subject"> Type: <b>{{ email.message.type }}</b></p>
+	                <p class="inbox__message-body" class="email__content" ng-bind-html="email.message.content"></p>
+	            </div>
+				
+	        </li>
+
+	    </ul>
+
+	    <!-- <div class="email__response" ng-show="reply">
+	        <textarea ng-model="response" class="email__response-text" placeholder="Enter a reply"></textarea>
+	        <a href="" ng-click="email.reply(response);">Send</a>
+	    </div> -->
+
+    </div>
+
+
+    <div class="clear"></div>
+</div>

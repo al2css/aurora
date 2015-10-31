@@ -1,0 +1,15 @@
+{
+    "id": 8,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Beijing",
+    "from_code": "Bei",
+    "to": "Tokyo",
+    "to_code": "TOK",
+    "flight_code": "G950123",
+    "departing_time": 1431949200,
+    "landing_time": 1431949900,
+    "passenger_booked": 168,
+    "forecasted_bags": 329
+}

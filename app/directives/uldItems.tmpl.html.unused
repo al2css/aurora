@@ -1,0 +1,11 @@
+<div class="uld">
+	<ul>
+		<li ng-repeat="uld in uldItems.layout.ulds" class="compatibleWith{{ uld.uldCompatibilityGroup }}" tooltip-placement="top" tooltip-html-unsafe="{{ uld.id }} / {{ uld.type }} / {{ uld.uldCompatibilityGroup }}" id="{{ uld.iataId }}" data-draggable="{{ uld.uldCompatibilityGroup }}" ng-style="uldItems.setStyle(uld.width, uld.height, uld.uldCompatibilityGroup)">
+			<div class="ulditem">
+				{{ uld.uldCompatibilityGroup }}
+			</div>
+		</li>
+	</ul>
+
+	<div class="clear">
+</div>

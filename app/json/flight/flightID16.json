@@ -1,0 +1,17 @@
+{
+    "id": 16,
+    "type": "assigned",
+    "login_date": 1428506700,
+    "logout_date": 1428606000,
+    "error": false,
+    "error_msg": false,
+    "from": "Budapest",
+    "from_code": "BUD",
+    "to": "Bucharest",
+    "to_code": "BUC",
+    "flight_code": "G950123",
+    "departing_time": 1428506700,
+    "landing_time": 1428513120,
+    "passenger_booked": 158,
+    "forecasted_bags": 229
+}

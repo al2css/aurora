@@ -1,0 +1,15 @@
+{
+    "id": 15,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Paris",
+    "from_code": "PAR",
+    "to": "London",
+    "to_code": "LON",
+    "flight_code": "G950123",
+    "departing_time": 1431971200,
+    "landing_time": 1431979200,
+    "passenger_booked": 168,
+    "forecasted_bags": 329
+}

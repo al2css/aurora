@@ -1,0 +1,15 @@
+{
+    "id": 5,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Sharjah",
+    "from_code": "SHJ",
+    "to": "Bucharest",
+    "to_code": "BUC",
+    "flight_code": "G950123",
+    "departing_time": 1432001100,
+    "landing_time": 1432009100,
+    "passenger_booked": 178,
+    "forecasted_bags": 4329
+}

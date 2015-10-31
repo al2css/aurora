@@ -1,0 +1,15 @@
+{
+    "id": 9,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Dubai",
+    "from_code": "DUB",
+    "to": "Abu Dhabi",
+    "to_code": "DAB",
+    "flight_code": "G950123",
+    "departing_time": 1431936720,
+    "landing_time": 1431939720,
+    "passenger_booked": 158,
+    "forecasted_bags": 229
+}

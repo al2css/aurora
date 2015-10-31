@@ -1,0 +1,15 @@
+{
+    "id": 2,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Sharjah",
+    "from_code": "SHJ",
+    "to": "Intanbul",
+    "to_code": "IST",
+    "flight_code": "G950123",
+    "departing_time": 1431965520,
+    "landing_time": 1431968520,
+    "passenger_booked": 158,
+    "forecasted_bags": 229
+}

@@ -1,0 +1,15 @@
+<div class="lowerDeck">
+	<!-- ULD Template -->
+	<div class="centroids compatibilityClass{{ bay.uldCompatibilityGroup }}" ng-class="{ 'uld_assigned' : bay.assigned }" ng-repeat="bay in flight.reqFlight.lowerDeckLayout.layout" tooltip-placement="top" tooltip-html-unsafe="{{ bay.bayId }} / {{ bay.centroId }}" ng-if="bay.type !== 'DOOR'" ng-style="lowerDeck.setStyle(bay.centroId, bay.width, bay.height, bay.lateralAdjust, bay.uldCompatibilityGroup)" id="{{ bay.bayId }}" data-compatible="{{ bay.uldCompatibilityGroup }}">
+		<q></q>
+		<p>{{ bay.bayId }} # {{ bay.uld_compatibility_group }}</p>
+	</div>
+
+	<!-- DOOR Template -->
+	<div class="centroids compatibilityClass{{ bay.uldCompatibilityGroup }}" ng-repeat="bay in flight.reqFlight.lowerDeckLayout.layout" tooltip-placement="top" tooltip-html-unsafe="{{ bay.location }}  {{ bay.type }} / {{ bay.centroId }}" ng-if="bay.type === 'DOOR'" ng-style="lowerDeck.setStyle(bay.centroId, bay.width, bay.height, bay.lateralAdjust, bay.uldCompatibilityGroup)" id="{{ bay.bayId }}" data-compatible="{{ bay.uldCompatibilityGroup }}">
+		<q></q>
+		<p>DOOR</p>
+	</div>
+
+	<div class="clear"></div>
+</div>

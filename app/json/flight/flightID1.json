@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Doha",
+    "from_code": "DOH",
+    "to": "Cairo",
+    "to_code": "CAI",
+    "flight_code": "G950123",
+    "departing_time": 1431946200,
+    "landing_time": 1431949200,
+    "passenger_booked": 168,
+    "forecasted_bags": 329
+}

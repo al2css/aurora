@@ -1,0 +1,15 @@
+{
+    "id": 14,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Dubai",
+    "from_code": "DUB",
+    "to": "Cairo",
+    "to_code": "CAI",
+    "flight_code": "G950123",
+    "departing_time": 1432004340,
+    "landing_time": 1432009340,
+    "passenger_booked": 368,
+    "forecasted_bags": 229
+}

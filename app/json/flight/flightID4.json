@@ -1,0 +1,15 @@
+{
+    "id": 4,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Abu Dhabi",
+    "from_code": "ABU",
+    "to": "Casablanca",
+    "to_code": "CAS",
+    "flight_code": "G950123",
+    "departing_time": 1431970260,
+    "landing_time": 1431977260,
+    "passenger_booked": 468,
+    "forecasted_bags": 369
+}

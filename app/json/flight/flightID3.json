@@ -1,0 +1,15 @@
+{
+    "id": 3,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Atena",
+    "from_code": "ATE",
+    "to": "Cairo",
+    "to_code": "CAI",
+    "flight_code": "G950123",
+    "departing_time": 1431991380,
+    "landing_time": 1431999380,
+    "passenger_booked": 568,
+    "forecasted_bags": 829
+}

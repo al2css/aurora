@@ -1,0 +1,15 @@
+{
+    "id": 6,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Sharjah",
+    "from_code": "SHJ",
+    "to": "Sofia",
+    "to_code": "SOF",
+    "flight_code": "G950123",
+    "departing_time": 1432038600,
+    "landing_time": 1432039900,
+    "passenger_booked": 158,
+    "forecasted_bags": 324
+}

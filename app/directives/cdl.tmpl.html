@@ -1,0 +1,30 @@
+<div class="cdl">
+
+    <a class="cdlSpecial" href="javascript:;" title="CDL">CDL <div class="module directive cdl"><span>{{cdl.cdlItems.length}}</span></div></a>
+
+    <ul class="submenu">
+        <li ng-repeat="cdl in cdl.cdlItems">
+            <a class="infos" href="javascript:;" title="">
+                <span class="desc">
+					<b>{{cdl.type}}</b> 
+					<em>{{cdl.content}}</em>
+				</span>
+            </a>
+
+        </li>
+        
+        <li>
+            <form name="report_new_cdl" id="report_new_cdl" novalidate ng-submit="cdl.submitReportCdl(cdl)">
+                <select ng-model="cdl.newCdl" id="newCdlList" name="newCdlList">
+                    <option value="">Report new CDL</option>
+                    <option ng-repeat="n in [1,2,3,4,5]" ng-selected="" value="{{ n }}">{{ n }}</option>
+                </select>
+                <input type="hidden" autocomplete="off" autocorrect="off" autocapitalize="off" ng-model="cdl.newCdl" id="cdl_check" name="cdl_check" class="input_text" required ng-class="{'error' : report_new_cdl.cdl_check.$error.required}" />
+                <button class="report_new_cdl_button" ng-class="{'error' : report_new_cdl.$invalid}" ng-disabled="report_new_cdl.$invalid">Report CDL</button>
+            </form>
+        </li>
+
+    </ul>
+
+    <div class="clear"></div>
+</div>

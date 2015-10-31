@@ -1,0 +1,15 @@
+{
+    "id": 13,
+    "type": "assigned",
+    "error": false,
+    "error_msg": false,
+    "from": "Sharjah",
+    "from_code": "SHJ",
+    "to": "Cairo",
+    "to_code": "CAI",
+    "flight_code": "G950123",
+    "departing_time": 1431997440,
+    "landing_time": 1431999440,
+    "passenger_booked": 158,
+    "forecasted_bags": 324
+}

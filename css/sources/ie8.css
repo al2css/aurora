@@ -1,0 +1,17 @@
+.global_button.disabled { background-color: gray !important; }
+
+#site .animated-view .container>div.identification .content .input_text { height: 30px; line-height: 100%; }
+
+#site .animated-view .container > div.seatmap .left_sidebar .sidebar_board .sidebar_board_top > div { width: auto; }
+#site .animated-view .container > div.seatmap .aircraft .seats > ul li.isAisle { width: 300px; }
+
+#site .animated-view .container > div.seatmap .aircraft .seats > ul li .seat_price > span { margin-left: -75px; }
+
+#site .animated-view .container>div.identification .content .input_submit { background: transparent; background-color: #da0000; }
+#site .animated-view .container>div.identification .content .input_submit:disabled,
+#site .animated-view .container>div.identification .content .input_submit.disabled { background: transparent; background-color: #d0cece !important; color: #f98680; text-shadow: none;  }
+
+#site .animated-view .container>div.identification .content .flight_details>div.box.arrival,
+#site .animated-view .container>div.identification .content .flight_details>div.box.departure { width: 24%; }
+
+#site .animated-view .container>div.identification .content .all_passengers_listed li.checked>span { width: 120px; }

@@ -1,0 +1,115 @@
+{
+  "fleetCode" : "320",
+  "aircraftRegistrations":[
+      {
+        "registraionNumber": "ZZ-OEA",
+        "status" : false
+      },
+      {
+        "registraionNumber": "ZZ-OEE",
+        "status" : true
+      },
+      {
+        "registraionNumber": "ZZ-OEH",
+        "status" : false
+      },
+      {
+        "registraionNumber": "ZZ-OEI",
+        "status" : false
+      },
+      {
+        "registraionNumber": "ZZ-OEN",
+        "status" : false
+      },
+      {
+        "registraionNumber": "ZZ-OEG",
+        "status" : false
+      },
+      {
+        "registraionNumber": "ZZ-OEF",
+        "status" : false
+      }
+  ],
+  "feetTypes": [
+      {
+        "fleetCode": "320",
+        "status":true
+      },
+      {
+        "fleetCode": "343",
+        "status":false
+      },
+      {
+        "fleetCode": "322",
+        "status":false
+      }
+    ],
+  "cabinConfigurations":[
+      {
+        "configuration": "Y136",
+        "status" : true
+      },
+      {
+        "configuration": "C16Y112",
+        "status" : false
+      }
+    ],
+  "flightAmenities":[
+      {
+        "volatileValuesId": 1,
+        "name": "Pantry A",
+        "indexAdj": 891.0,
+        "weightAdj": 567.0,
+        "rank": 1,
+        "type": "PMT",
+        "status" : false
+        },
+      {
+        "volatileValuesId": 2,
+        "name": "Pantry B",
+        "indexAdj": 189.0,
+        "weightAdj": 671.0,
+        "rank": 1,
+        "type": "PMT",
+        "status" : true
+        },
+        {
+        "volatileValuesId": 3,
+        "name": "Pantry C",
+        "indexAdj": 189.0,
+        "weightAdj": 891.0,
+        "rank": 1,
+        "type": "PMT",
+        "status" : false
+        },
+        {
+        "volatileValuesId": 4,
+        "name": "Crew A",
+        "indexAdj": 145.0,
+        "weightAdj": 891.0,
+        "rank": 2,
+        "type": "CRW",
+        "status" : true
+        },
+        {
+        "volatileValuesId": 5,
+        "name": "Crew B",
+        "indexAdj": 1545.0,
+        "weightAdj": 391.0,
+        "rank": 2,
+        "type": "CRW",
+        "status" : false
+        }
+    ],
+  "regulatedValues":{
+    "ZFW" : null,
+    "TOW" : 79000,
+    "LDW" : null
+    },
+  "maxValues":{
+    "ZFW" : 62500,
+    "TOW" : 78000,
+    "LDW" : 66000
+  }
+}
+

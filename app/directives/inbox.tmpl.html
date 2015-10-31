@@ -1,0 +1,31 @@
+<div class="inbox">
+    <div class="search-bar">
+        <div class="inbox__count">
+        	<div class="messages_title">Messages</div>
+        	<div class="title"><h1>You have <b>{{ viewInbox.inboxMessages.length && viewInbox.inboxMessages.length || 'no' }}</b> messages</h1></div>
+        </div>
+        <div ng-hide="!viewInbox.inboxMessages.length" class="inbox__search__box">
+            <input type="text" class="inbox__search" ng-model="viewInbox.search" value="" placeholder="Search... " />
+        </div>
+    </div>
+    <ul class="inbox__list">
+        <!-- <li ng-show="!viewInbox.inboxMessages.length" class="no-emails">
+        	<div class="title"><h1>No messages!</h1></div>
+        </li> -->
+        <!-- <li ng-repeat="message in viewInbox.inboxMessages | orderBy:'date' | filter:{ from: viewInbox.search }"> -->
+        <li ng-repeat="message in viewInbox.inboxMessages |  filter: viewInbox.search" ng-class="{'unread' : message.unread}">
+        	<em></em>
+            <div class="inbox__list-info">
+                <p class="inbox__list-from"> From: <b>{{ message.from }}</b> {{ message.date }}</p>
+                <p class="inbox__list-date"> Flight: <b>{{ message.subject }}</b> </p>
+                <p class="inbox__list-subject"> Message: <b>{{ message.type }}</b> </p>
+            </div>
+			
+			<a href="javascript:;" title="" ng-click="viewInbox.goToMessage(message.id);" class="read_message">Read message</a>
+
+        </li>
+
+    </ul>
+
+    <div class="clear"></div>
+</div>
